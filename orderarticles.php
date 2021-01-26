@@ -30,10 +30,10 @@ $query = [
         'sOrderID' => OXID
     ]
 ];
-$oxErpResult = $soapClient->__soapCall('OXERPGetOrderArticle', $query);
+$result = $soapClient->__soapCall('OXERPGetOrderArticle', $query);
 
 
 // Debug output
 echo '<pre>';
-print_r($oxErpResult);
+print_r($result);
 echo '</pre>';
