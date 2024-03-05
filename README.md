@@ -1,17 +1,17 @@
-# erp-interface-soap-request-php-script-orderarticles
-Example PHP script for executing a SOAP request to read orderarticles.
+# erp-interface-soap-example-script
+## Example PHP script for executing a SOAP request to read orderarticles.
 
-## Requirements
+### Requirements
 - OXID eShop 6.2 PE or EE
 - ERP Interface 3.1
   
 The script was developed with the versions OXID eShop 6.2.2 and ERP Interface 3.1. It might work with older versions, too.
 
-## Install
-### Get the script
+### Install
+#### Get the script
 Copy the script to a directory to which your webserver is pointing to and call it with the browser: `https://example.com/orderarticles.php`  
   
-### configure
+#### configure
 Change the constants on top of the script accordingly.  
 
 The constant OXID is a primary key from an entry of the table oxorder.
@@ -27,3 +27,7 @@ MySQL [oxid]> select oxid from oxorder limit 1;
 
 MySQL [oxid]> 
 ```
+
+## Example PHP script for getting an article
+
+## Example PHP script for creating an article
