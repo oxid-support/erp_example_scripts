@@ -1,4 +1,4 @@
-# erp-interface-soap-example-script
+# ERP example scripts
 ## Example PHP script for executing a SOAP request to read orderarticles.
 
 ### Requirements
