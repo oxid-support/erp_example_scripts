@@ -30,4 +30,22 @@ MySQL [oxid]>
 
 ## Example PHP script for getting an article
 
+### Requirements
+- OXID eShop 7 PE or EE
+- ERP Interface 4.0
+
+The script was developed with the versions OXID eShop 7.0.1 and ERP Interface 4. It might work with older versions, too.
+
+#### configure
+Change the constants on top of the script accordingly.  
+
+The constant OXID is a primary key from an entry of the table oxarticles.
+To get one, you can execute the following query or just use the displayed oxid, in case you have the demodata installed:
+
 ## Example PHP script for creating an article
+
+### Requirements
+- OXID eShop 7 PE or EE
+- ERP Interface 4.0
+
+The script was developed with the versions OXID eShop 7.0.1 and ERP Interface 4. It might work with older versions, too.
