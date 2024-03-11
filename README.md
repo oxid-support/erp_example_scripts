@@ -42,6 +42,18 @@ Change the constants on top of the script accordingly.
 The constant OXID is a primary key from an entry of the table oxarticles.
 To get one, you can execute the following query or just use the displayed oxid, in case you have the demodata installed:
 
+```mysql
+MySQL [oxid]> select oxid from oxarticles limit 1;
++----------------------------------+
+| oxid                             |
++----------------------------------+
+| 066e3ce119c43c81cc0e46d4f1681eed |
++----------------------------------+
+1 row in set (0.001 sec)
+
+MySQL [oxid]> 
+```
+
 ## Example PHP script for creating an article
 
 ### Requirements
